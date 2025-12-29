@@ -1,3 +1,6 @@
 [submodule "Artix 7 Schematic Components/M.2-Card-Footprints"]
 	path = Artix 7 Schematic Components/M.2-Card-Footprints
 	url = https://github.com/timonsku/M.2-Card-Footprints.git
+[submodule "M.2-Card-Footprints"]
+	path = M.2-Card-Footprints
+	url = https://github.com/timonsku/M.2-Card-Footprints.git
