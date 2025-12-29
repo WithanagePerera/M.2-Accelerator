@@ -1,0 +1,3 @@
+[submodule "External Component Schematics/Phil's Lab Altium Components"]
+	path = External Component Schematics/Phil's Lab Altium Components
+	url = https://github.com/pms67/AltiumDesigner-Libraries.git
