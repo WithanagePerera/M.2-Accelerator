@@ -2,12 +2,25 @@
   "design": {
     "design_info": {
       "boundary_crc": "0x0",
+      "device": "xc7a100tfgg484-1",
       "gen_directory": "../../../../M.2 Accelerator Memory Mapper.gen/sources_1/bd/Memory_Mapper",
       "name": "Memory_Mapper",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2025.2"
     },
-    "design_tree": {}
+    "design_tree": {
+      "mig_7series_0": ""
+    },
+    "components": {
+      "mig_7series_0": {
+        "vlnv": "xilinx.com:ip:mig_7series:4.2",
+        "ip_revision": "2",
+        "xci_name": "Memory_Mapper_mig_7series_0_0",
+        "xci_path": "ip\\Memory_Mapper_mig_7series_0_0_1\\Memory_Mapper_mig_7series_0_0.xci",
+        "inst_hier_path": "mig_7series_0",
+        "has_run_ip_tcl": "true"
+      }
+    }
   }
 }
