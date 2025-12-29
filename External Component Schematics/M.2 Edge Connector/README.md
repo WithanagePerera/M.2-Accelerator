@@ -1,0 +1,1 @@
+I derived this component from Phil's huge list of components (see the "Phil's Lab Altium Components" folder in the directory above). I separated the M.2 2280 M-key footprint and schematic from his list, and created a separate component for it here.
