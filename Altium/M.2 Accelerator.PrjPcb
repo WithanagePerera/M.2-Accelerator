@@ -1232,15 +1232,16 @@ Net4=NetName=+1V35|NetColor=$00BEFF41
 Net5=NetName=+1V8|NetColor=$0001FF7F
 Net6=NetName=+3V3|NetColor=clRed
 Net7=NetName=BUCK_AGND|NetColor=$00383838
-Net8=NetName=BUCK_FB1|NetColor=$000084FF
-Net9=NetName=CFGBVS_0|NetColor=clRed
-Net10=NetName=CLK_200MHZ_N|NetColor=clFuchsia
-Net11=NetName=CLK_200MHZ_P|NetColor=clFuchsia
-Net12=NetName=DDR3_CS_N|NetColor=$00383838
-Net13=NetName=GND|NetColor=$00383838
-Net14=NetName=M1_CONFIG|NetColor=$00383838
-Net15=NetName=QSPI_CLK|NetColor=$00E60CB0
-Net16=NetName=XADCGND|NetColor=$00969696
+Net8=NetName=BUCK_EN1|NetColor=clRed
+Net9=NetName=BUCK_FB1|NetColor=$000084FF
+Net10=NetName=CFGBVS_0|NetColor=clRed
+Net11=NetName=CLK_200MHZ_N|NetColor=clFuchsia
+Net12=NetName=CLK_200MHZ_P|NetColor=clFuchsia
+Net13=NetName=DDR3_CS_N|NetColor=$00383838
+Net14=NetName=GND|NetColor=$00383838
+Net15=NetName=M1_CONFIG|NetColor=$00383838
+Net16=NetName=QSPI_CLK|NetColor=$00E60CB0
+Net17=NetName=XADCGND|NetColor=$00969696
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
