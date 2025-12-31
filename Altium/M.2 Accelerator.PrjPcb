@@ -52,8 +52,8 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=Schematics\1_Overview.SchDoc
 AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=101
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=0
@@ -85,9 +85,9 @@ DocumentUniqueId=NRPAANYC
 
 [Document3]
 DocumentPath=Schematics\3_PowerDistribution.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=301
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=2
@@ -102,9 +102,9 @@ DocumentUniqueId=LSZJVOHU
 
 [Document4]
 DocumentPath=Schematics\4_Configuration.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=401
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=3
@@ -119,9 +119,9 @@ DocumentUniqueId=PCHMYZUH
 
 [Document5]
 DocumentPath=Schematics\5_GPIOBanks.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=501
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=4
@@ -136,9 +136,9 @@ DocumentUniqueId=AQWXRVRR
 
 [Document6]
 DocumentPath=Schematics\6_DRAMBanks.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=601
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=5
@@ -153,9 +153,9 @@ DocumentUniqueId=WJYQUJZZ
 
 [Document7]
 DocumentPath=Schematics\7_DDR3L.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=701
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=7
@@ -170,9 +170,9 @@ DocumentUniqueId=LDKZVZVS
 
 [Document8]
 DocumentPath=Schematics\8_MGTBank.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=801
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=6
@@ -187,9 +187,9 @@ DocumentUniqueId=YTJWDFBU
 
 [Document9]
 DocumentPath=Schematics\9_M.2_B+M.SchDoc
-AnnotationEnabled=0
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotationEnabled=1
+AnnotateStartValue=901
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=8
@@ -201,6 +201,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GGNPHRCK
+
+[Document10]
+DocumentPath=M.2 Accelerator.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources

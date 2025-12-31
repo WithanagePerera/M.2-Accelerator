@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x0",
+      "boundary_crc": "0x357FFAFD792F05E4",
       "device": "xc7a100tfgg484-1",
       "gen_directory": "../../../../M.2 Accelerator Memory Mapper.gen/sources_1/bd/Memory_Mapper",
       "name": "Memory_Mapper",
@@ -12,6 +12,17 @@
     "design_tree": {
       "mig_7series_0": ""
     },
+    "ports": {
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_LOW"
+          }
+        }
+      }
+    },
     "components": {
       "mig_7series_0": {
         "vlnv": "xilinx.com:ip:mig_7series:4.2",
@@ -20,6 +31,14 @@
         "xci_path": "ip\\Memory_Mapper_mig_7series_0_0_1\\Memory_Mapper_mig_7series_0_0.xci",
         "inst_hier_path": "mig_7series_0",
         "has_run_ip_tcl": "true"
+      }
+    },
+    "nets": {
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "mig_7series_0/sys_rst"
+        ]
       }
     }
   }

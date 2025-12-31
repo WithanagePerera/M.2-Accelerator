@@ -13,7 +13,7 @@ MIG Output Options:
 
 FPGA Options:
    System Clock Type               : Differential
-   Reference Clock Type            : No Buffer
+   Reference Clock Type            : Use System Clock
    Debug Port                      : OFF
    Internal Vref                   : enabled
    IO Power Reduction              : ON
@@ -36,15 +36,15 @@ Controller Options :
 
    Interface                     : AXI
 
-   Design Clock Frequency        : 3225 ps (  0.00 MHz)
+   Design Clock Frequency        : 3077 ps (  0.00 MHz)
 
-   Phy to Controller Clock Ratio : 2:1
+   Phy to Controller Clock Ratio : 4:1
 
-   Input Clock Period            : 3225 ps
+   Input Clock Period            : 5000 ps
 
-   CLKFBOUT_MULT (PLL)           : 4
+   CLKFBOUT_MULT (PLL)           : 13
 
-   DIVCLK_DIVIDE (PLL)           : 1
+   DIVCLK_DIVIDE (PLL)           : 2
 
    VCC_AUX IO                    : 1.8V
 
@@ -60,13 +60,13 @@ Controller Options :
 
    Data Mask                     : enabled
 
-   ORDERING                      : Strict
+   ORDERING                      : Normal
 
 
 
 AXI Parameters :
 
-   Data Width                    : 64
+   Data Width                    : 128
 
    Arbitration Scheme            : RD_PRI_REG
 

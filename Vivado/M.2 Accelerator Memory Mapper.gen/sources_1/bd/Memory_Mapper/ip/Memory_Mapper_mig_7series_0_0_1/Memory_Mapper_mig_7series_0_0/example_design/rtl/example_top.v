@@ -142,11 +142,11 @@ module example_top #
    // The following parameters are multiplier and divisor factors for PLLE2.
    // Based on the selected design frequency these parameters vary.
    //***************************************************************************
-   parameter CLKIN_PERIOD          = 3225,
+   parameter CLKIN_PERIOD          = 5000,
                                      // Input Clock Period
-   parameter CLKFBOUT_MULT         = 4,
+   parameter CLKFBOUT_MULT         = 13,
                                      // write PLL VCO multiplier
-   parameter DIVCLK_DIVIDE         = 1,
+   parameter DIVCLK_DIVIDE         = 2,
                                      // write PLL VCO divisor
    parameter CLKOUT0_PHASE         = 0.0,
                                      // Phase for PLL output clock (CLKOUT0)
@@ -156,11 +156,11 @@ module example_top #
                                      // VCO output divisor for PLL output clock (CLKOUT1)
    parameter CLKOUT2_DIVIDE        = 64,
                                      // VCO output divisor for PLL output clock (CLKOUT2)
-   parameter CLKOUT3_DIVIDE        = 8,
+   parameter CLKOUT3_DIVIDE        = 16,
                                      // VCO output divisor for PLL output clock (CLKOUT3)
-   parameter MMCM_VCO              = 620,
+   parameter MMCM_VCO              = 649,
                                      // Max Freq (MHz) of MMCM VCO
-   parameter MMCM_MULT_F           = 4,
+   parameter MMCM_MULT_F           = 8,
                                      // write MMCM VCO multiplier
    parameter MMCM_DIVCLK_DIVIDE    = 1,
                                      // write MMCM VCO divisor
@@ -183,7 +183,7 @@ module example_top #
    //***************************************************************************
    // System clock frequency parameters
    //***************************************************************************
-   parameter nCK_PER_CLK           = 2,
+   parameter nCK_PER_CLK           = 4,
                                      // # of memory CKs per fabric CLK
 
    
@@ -197,7 +197,7 @@ module example_top #
                                              // Width of S_AXI_AWADDR, S_AXI_ARADDR, M_AXI_AWADDR and
                                              // M_AXI_ARADDR for all SI/MI slots.
                                              // # = 32.
-   parameter C_S_AXI_DATA_WIDTH            = 64,
+   parameter C_S_AXI_DATA_WIDTH            = 128,
                                              // Width of WDATA and RDATA on SI slot.
                                              // Must be <= APP_DATA_WIDTH.
                                              // # = 32, 64, 128, 256.
@@ -247,8 +247,6 @@ module example_top #
    input                                        sys_clk_p,
    input                                        sys_clk_n,
    
-   // Single-ended iodelayctrl clk (reference clock)
-   input                                        clk_ref_i,
 
    output                                       tg_compare_error,
    output                                       init_calib_complete,
@@ -482,8 +480,6 @@ function integer clogb2 (input integer size);
 // System Clock Ports
        .sys_clk_p                       (sys_clk_p),
        .sys_clk_n                       (sys_clk_n),
-// Reference Clock Ports
-       .clk_ref_i                      (clk_ref_i),
        .device_temp            (device_temp),
        `ifdef SKIP_CALIB
        .calib_tap_req                    (calib_tap_req),
