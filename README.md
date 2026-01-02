@@ -24,57 +24,61 @@ Spent this time for my component selection, then designing all of my circuits in
 
 I plan on taking a break from this to finish off my I2C project, but the next step is validation of my circuits and running some signal integrity checks to check my transmission line effects on the high speed signals, then finally PCB development.
 
-<img src="Images/Overview Page.png">
-<figcaption>Block Diagram Overview</figcaption>
+<table align="center">
+  <tr>
+    <td><img src="Images/Overview Page.png" alt="Block Diagram Overview"></td>
+  </tr>
+  <tr>
+    <td align="center">Block Diagram Overview</td>
+  </tr>
+</table>
 
 <br/>
 
-<div style="display:flex; justify-content:center; gap:20px;">
-    <figure style="margin:0; flex:1;">
-        <img src="Images/Power Rails Page.png">
-        <figcaption>Power Rails</figcaption>
-    </figure>
-    <figure style="margin:0; flex:1;">
-        <img src="Images/Configuration Page.png">
-        <figcaption>FPGA Configuration</figcaption>
-    </figure>
-</div>
+<table align="center">
+  <tr>
+    <td width="50%"><img src="Images/Power Rails Page.png" alt="Power Rails"></td>
+    <td width="50%"><img src="Images/Power Distribution Page.png" alt="Power Distribution"></td>
+  </tr>
+  <tr>
+    <td align="center">Power Distribution</td>
+    <td align="center">Power Rails</td>
+  </tr>
+</table>
 
 <br/>
 
-<div style="display:flex; justify-content:center; gap:20px;">
-    <figure style="margin:0; flex:1;">
-        <img src="Images/Power Distribution Page.png">
-        <figcaption>Power Distribution</figcaption>
-    </figure>
-    <figure style="margin:0; flex:1;">
-        <img src="Images/FPGA GPIO Banks Page.png">
-        <figcaption>GPIO Banks</figcaption>
-    </figure>
-</div>
+<table align="center">
+  <tr>
+    <td width="50%"><img src="Images/Configuration Page.png" alt="FPGA Configuration"></td>
+    <td width="50%"><img src="Images/FPGA GPIO Banks Page.png" alt="GPIO Banks"></td>
+  </tr>
+  <tr>
+    <td align="center">FPGA Configuration</td>
+    <td align="center">GPIO Banks</td>
+  </tr>
+</table>
 
 <br/>
 
-<div style="display:flex; justify-content:center; gap:20px;">
-    <figure style="margin:0; flex:1;">
-        <img src="Images/DRAM Banks Page.png">
-        <figcaption>DRAM Banks</figcaption>
-    </figure>
-    <figure style="margin:0; flex:1;">
-        <img src="Images/DDR3L Config Page.png">
-        <figcaption>DDR3L Configuration</figcaption>
-    </figure>
-</div>
+<table align="center">
+  <tr>
+    <td width="50%"><img src="Images/DRAM Banks Page.png" alt="DRAM Banks"></td>
+    <td width="50%"><img src="Images/DDR3L Config Page.png" alt="DDR3L Configuration"></td>
+  </tr>
+  <tr>
+    <td align="center">DRAM Banks</td>
+    <td align="center">DDR3L Configuration</td>
+  </tr>
+</table>
 
-<br/>
-
-<div style="display:flex; justify-content:center; gap:20px;">
-    <figure style="margin:0; flex:1;">
-        <img src="Images/MGT Config Page.png">
-        <figcaption>MGT Configuration</figcaption>
-    </figure>
-    <figure style="margin:0; flex:1;">
-        <img src="Images/M.2 Edge Connector Page.png">
-        <figcaption>M.2 M-Key Edge Connector</figcaption>
-    </figure>
-</div>
+<table align="center">
+  <tr>
+    <td width="50%"><img src="Images/MGT Config Page.png" alt="MGT Configuration"></td>
+    <td width="50%"><img src="Images/M.2 Edge Connector Page.png" alt="M.2 M-Key Edge Connector"></td>
+  </tr>
+  <tr>
+    <td align="center">MGT Configuration</td>
+    <td align="center">M.2 M-Key Edge Connector</td>
+  </tr>
+</table>
